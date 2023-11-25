@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Your Portfolio</title>
+  <script>
+    function scrollToProjects() {
+      var projectsSection = document.getElementById("projects-section");
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</head>
+<body>
+
+  <div class="main">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <button class="toggler">&#9776;</button>
+      <div class="nav-buttons">
+        <a href="https://rossek2.kiselnynodes.xyz" class="nav-btn selected">Главная</a>
+        <a href="javascript:void(0);" onclick="scrollToProjects()" class="nav-btn">Проекты</a>
+        <a href="javascript:void(0);" onclick="scrollToProjects()" class="nav-btn">Контакты</a>
+      </div>
+      <div class="logo">Rossek2</div>
+    </nav>
+
+    <!-- Top Container -->
+    <div class="top-container">
+      <div class="info-box">
+        <h1 class="header">Добро пожаловать в моё портфолио</h1>
+        <p class="info-text">Я технический администратор серверов майнкрафт.</p>
+        <div class="info-buttons">
+          <a href="https://discord.com/users/755126477443301447/" class="info-btn selected">Discord</a>
+          <a href="https://t.me/FLEISI_AEP" class="info-btn nav-btn">Telegram</a>
+        </div>
+      </div>
+
+      <!-- NFT Box -->
+      <div class="nft-box">
+        <img class="nft-pic" src="images/RT_512.png" alt="NFT Image">
+        <div class="nft-content">
+          <div class="info">
+          </div>
+          <div class="likes">
+            <div class="icon-box">
+              <i class="bx bx-heart"></i>
+              <p>Лучший проект</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Get Started -->
+    <div class="get-started" id="projects-section">
+      <h2 class="header">Остальные Проекты</h2>
+      <p class="info-text">Посетите всё это вы не пожалеете.</p>
+      <div class="items-box">
+        <div class="item-container">
+          <a href="https://kiselnynodes.xyz" class="item">
+            <img class="bx bx-code" src="images/ks.png" alt="KiselnyNodes">
+          </a>   
+            <p>KiselnyNodes</p>       
+        </div>
+        <div class="item-container">
+          <a href="https://phylexstudio.fun" class="item">
+            <img class="bx bx-code" src="images/PHYLEXSTUDIO_BY_ROSSEK2.png" alt="KiselnyNodes">
+          </a>   
+            <p>PhylexStudio</p>
+        </div>
+        <div class="item-container">
+          <a href="https://whg7685.vkweb.su" class="item">
+            <img class="bx bx-code" src="images/ava.png" alt="KiselnyNodes">
+          </a>   
+            <p>KofeJester</p>
+        </div>
+        <div class="item-container">
+          <a href="https://dsc.gg/neverclient" class="item">
+            <img class="bx bx-code" src="images/never.jpg" alt="KiselnyNodes">
+          </a>   
+            <p>NeverClient</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-header">Мои Контакты</div>
+      <div class="footer-links">
+        <div class="link">
+          <h5>Email</h5>
+          <p>arampalyan0222@gmail.com</p>
+        </div>
+        <div class="link">
+          <h5>Discord</h5>
+          <p><a href="https://discord.com/users/755126477443301447/" target="_blank">Rossek2#1396</a></p>
+        </div>
+        <div class="link">
+          <h5>GitHub</h5>
+          <p><a href="https://github.com/Rossek22" target="_blank">github.com/Rossek22</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
